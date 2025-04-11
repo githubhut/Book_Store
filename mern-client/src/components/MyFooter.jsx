@@ -9,10 +9,10 @@ const MyFooter = () => {
           <div>
             <Footer.Title title="Company" />
             <Footer.LinkGroup col>
-              <Footer.Link href="https://book-store-eta-rust.vercel.app/about">About</Footer.Link>
+              <Footer.Link href="/about">About</Footer.Link>
               <Footer.Link href="#">Careers</Footer.Link>
               <Footer.Link href="#">Brand Center</Footer.Link>
-              <Footer.Link href="https://book-store-eta-rust.vercel.app/blog">Blog</Footer.Link>
+              <Footer.Link href="/blog">Blog</Footer.Link>
             </Footer.LinkGroup>
           </div>
           <div>

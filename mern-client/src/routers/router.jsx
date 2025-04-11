@@ -47,7 +47,7 @@ const router = createBrowserRouter([{
       path: '/book/:_id',
       element: <SingleBook />,
       loader: async ({ params }) => {
-        return fetch(`https://book-store-eta-rust.vercel.app/book/${params._id}`)
+        return fetch(`https://book-store-backend-cqp2.onrender.com/book/${params._id}`)
           .then(res => res.json())
       }
     },
@@ -78,7 +78,7 @@ const router = createBrowserRouter([{
       element: <EditBooks />,
       loader: async ({ params }) => {
         try {
-          const res = await fetch(`https://book-store-eta-rust.vercel.app/${params._id}`);
+          const res = await fetch(`https://book-store-backend-cqp2.onrender.com/${params._id}`);
           if (!res.ok) {
             throw new Error("Failed to fetch book");
           }
