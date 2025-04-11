@@ -11,12 +11,12 @@ const Shop = () => {
   useEffect(() => {
     if (id) {
       // Fetch details for a single book
-      fetch(`https://book-store-0abb.onrender.com/book/${id}`)
+      fetch(`https://book-store-eta-rust.vercel.app/book/${id}`)
         .then((res) => res.json())
         .then((data) => setBook(data));
     } else {
       // Fetch all books
-      fetch('https://book-store-0abb.onrender.com/all-books')
+      fetch('https://book-store-eta-rust.vercel.app/all-books')
         .then((res) => res.json())
         .then((data) => setBooks(data));
     }

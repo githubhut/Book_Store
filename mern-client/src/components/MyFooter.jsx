@@ -9,10 +9,10 @@ const MyFooter = () => {
           <div>
             <Footer.Title title="Company" />
             <Footer.LinkGroup col>
-              <Footer.Link href="http://localhost:5173/about">About</Footer.Link>
+              <Footer.Link href="https://book-store-eta-rust.vercel.app/about">About</Footer.Link>
               <Footer.Link href="#">Careers</Footer.Link>
               <Footer.Link href="#">Brand Center</Footer.Link>
-              <Footer.Link href="http://localhost:5173/blog">Blog</Footer.Link>
+              <Footer.Link href="https://book-store-eta-rust.vercel.app/blog">Blog</Footer.Link>
             </Footer.LinkGroup>
           </div>
           <div>
@@ -45,10 +45,10 @@ const MyFooter = () => {
         <div className="w-full bg-gray-400 px-4 py-3 sm:flex sm:items-center sm:justify-between">
           <p className="text-lg  font-bold"> Contact Us</p>
           <div className="mt-4  flex space-x-6 sm:mt-0 sm:justify-center">
-            <Footer.Icon href="https://www.facebook.com/profile.php?id=100009177026240" icon={BsFacebook} />
-            <Footer.Icon href="https://www.instagram.com/revenge__rider/" icon={BsInstagram} />
-            <Footer.Icon href="https://www.linkedin.com/in/ankitcodes07" icon={BsLinkedin} />
-            <Footer.Icon href="https://github.com/ankit-anand07" icon={BsGithub} />
+            {/* <Footer.Icon href="https://www.facebook.com/profile.php?id=100009177026240" icon={BsFacebook} /> */}
+            <Footer.Icon href="https://www.instagram.com/bhupender.000/" icon={BsInstagram} />
+            <Footer.Icon href="https://www.linkedin.com/in/chavhaan" icon={BsLinkedin} />
+            <Footer.Icon href="https://github.com/githubhut" icon={BsGithub} />
             {/* <Footer.Icon href="#" icon={BsDribbble} /> */}
           </div>
         </div>

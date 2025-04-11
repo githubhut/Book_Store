@@ -5,7 +5,7 @@ const BestSellerBooks = () => {
   const [books, setBooks] = useState([]);
 
   useEffect(() => {
-    fetch("https://book-store-0abb.onrender.com/all-books").then(res => res.json()).then(data => setBooks(data));
+    fetch("https://book-store-eta-rust.vercel.app/all-books").then(res => res.json()).then(data => setBooks(data));
   }, [])
 
   return (
